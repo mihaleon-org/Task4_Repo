@@ -16,27 +16,3 @@ EndProcedure
 	Сообщение.Текст = "Текущее время: " + Формат(ТекущаяДата(), "ДЛФ=DDT");
 	Сообщение.Сообщить();
 КонецПроцедуры
-
-#Region FormEventHandlers
-
-k = 10;
-
-#EndRegion
-
-#Region FormHeaderItemsEventHandlers
-
-k = 20;
-
-#EndRegion
-
-#Region FormTableItemsEventHandlers
-
-k = 30;
-
-#EndRegion
-
-#Region FormCommandsEventHandlers
-
-k = 40;
-
-#EndRegion
